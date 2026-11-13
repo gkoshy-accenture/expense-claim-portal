@@ -4,7 +4,7 @@ Angular 20 frontend for the expense-claims workshop. The separately deployed Spr
 
 ## Run locally
 
-Requires Node.js 22.12 or newer.
+Requires Node.js 20.19 or newer, or 22.12 or newer.
 
 ```sh
 npm ci
@@ -20,7 +20,7 @@ npm test
 npm run build -- --base-href /myapp/
 ```
 
-Tests use headless Chrome. The production build is deployed under `/myapp/`.
+Tests run with Angular's Vitest runner and do not require a browser. The production build is deployed under `/myapp/`.
 
 ## Deploy
 
